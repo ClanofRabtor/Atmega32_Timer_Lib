@@ -68,7 +68,7 @@ void INIT_Timer_0_P_M_O_C(unsigned short ussPrescaler, unsigned char uscModus, u
             break;
     }
 
-    DDRD |= (1 << TIMER0); // Set OC0 pin as output
+    DDRB |= (1 << TIMER0); // Set OC0 pin as output
 }
 
 void SET_Timer_0_OCR(unsigned char uscOCR_Value) {
