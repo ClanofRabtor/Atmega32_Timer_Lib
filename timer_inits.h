@@ -1,7 +1,7 @@
 #ifndef TIMER_INITS_H
 #define TIMER_INITS_H
 
-#define TIMER0 PD3 
+#define TIMER0 PB3 
 #define TIMER1_A PD5
 #define TIMER1_B PD4 
 #define TIMER2 PD7
